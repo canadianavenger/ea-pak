@@ -1,5 +1,5 @@
 # ea-pak
-This repository is a companion to my blog post about the reverse engineering of the '.IMG' file format used with *688 Attack Sub*, and possibly others, by *Electronic Arts (EA)*. For more detail please read [my blog post](https://canadianavenger.io/2024/07/15/attack-of-the-subs/). 
+This repository is a companion to my blog post about the reverse engineering of the '.PAK' image file format used with *688 Attack Sub*, and possibly others, by *Electronic Arts (EA)*. For more detail please read [my blog post](https://canadianavenger.io/2024/07/15/attack-of-the-subs/). 
 
 ## EA Titles Known to Use the PAK Format
 - 688 Attack Sub (1989)
