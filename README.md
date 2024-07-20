@@ -12,7 +12,7 @@ In this repo there are two C programs, each is a standalone utility for converti
 - `bmp2pak.c` converts the given Windows BMP format image into a `.PAK` image 
 
 ## The PAK File Format
-The PAK Image File format is very basic and actually consists of 2 files. The first is the `.PAK` file itself, this holds the raw uncompressed 8 bit image data for a 320x200 image, for a total of 64000 bytes. The pixel data is stored in scanline order form the top left to the botto right. The second is a `.PAL` file that holds the palette data for the image. The palette file is 256 entries of 8 bit red, green, and blue, component values, for a total of 768 bytes.
+The PAK Image File format is very basic and actually consists of 2 files. The first is the `.PAK` file itself, this holds the raw uncompressed 8 bit image data for a 320x200 image, for a total of 64000 bytes. The pixel data is stored in scanline order form the top left to the bottom right. The second is a `.PAL` file that holds the palette data for the image. The palette file is 256 entries of 8 bit red, green, and blue, component values, for a total of 768 bytes.
 
 ```c
 typedef struct {
